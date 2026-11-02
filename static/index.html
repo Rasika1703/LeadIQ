@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LeadIQ</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css"></head><body>
+<div class="app"><aside class="side" id="side"><div class="brand"><span class="mark"></span><b>LeadIQ</b></div><div class="ws">Sales workspace</div><nav id="nav"></nav>
+<div class="prof"><span class="av">SW</span><div><b>Sales Team</b><small>Workspace admin</small></div></div></aside>
+<div class="scrim" data-act="drawer"></div>
+<div class="main"><header class="top"><button class="ib" data-act="menu" aria-label="Toggle navigation" id="menuBtn"></button>
+<div class="crumbs"><span class="muted">LeadIQ</span><i id="ci"></i><b id="crumb"></b></div>
+<label class="search"><span id="si"></span><input id="q" placeholder="Search leads, companies, industries" autocomplete="off"><kbd>/</kbd></label>
+<div class="pop"><button class="ib" data-act="pop" data-p="notif" aria-label="Notifications" id="bell"></button><div class="menu" id="notif"></div></div>
+<div class="pop"><button class="usr" data-act="pop" data-p="umenu"><span class="av">SW</span></button><div class="menu" id="umenu"><a href="#/settings">Settings</a><a href="#/engine">Scoring engine</a><a href="#/tests">Test cases</a></div></div></header>
+<main id="view" class="view"></main></div></div>
+<dialog id="dlg"></dialog><div id="toasts" aria-live="polite"></div><div id="tip" class="tip"></div>
+<script src="app.js"></script></body></html>
